@@ -1,0 +1,26 @@
+1.	Create a directory “Devops”.
+      mkdir Devops
+2.	Create a file “LinuxCommands” in “Devops” directory.
+       cd Devops
+       touch LinuxCommands
+3.	Find and list the path of the file.
+         pwd
+4.	Create another Directory, “LinuxOS”
+         mkdir LinuxOS
+5.	Create a text file, “About” in LinuxOS and write something about Linux operating system.
+         cd LinuxOS
+         About.txt
+         vi About.txt
+6.	Rename the directory “LinuxOS” into “Linux”.
+         mv LinuxOS Linux  
+7.	Print the path and access permission of Linux directory.
+         pwd
+         ls -l
+8.	Change the working directory as “Devops” and create a text file “about” and write something about Devops in it.
+          vi About.txt
+9.	List the files in “Devops”
+          ls -l
+10. Copy the file “about” into ‘Linux’ and name the copied file as ‘devops’
+          cp about Linux 
+          cd Linux
+          mv about.txt devops
